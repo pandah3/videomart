@@ -13,6 +13,16 @@
   <body id="home">
     <!-- Navbar -->
     <div class="navbar-fixed">
+      <!-- Dropdown for Nav bar (place above nav tags) -->
+      <ul id="dropdown" class="dropdown-content">
+        <li><a href="#honey">꿀 <br>Honey</a></li>
+        <li class="divider"></li>
+        <li><a href="#mistletoe">겨우살이 <br>Mistletoe</a></li>
+        <li class="divider"></li>
+        <li><a href="#pinksalt">핑크소금 <br>Pink Salt</a></li>
+        <li class="divider"></li>
+        <li><a href="#propolis">프로폴리스 <br>Propolis</a></li>
+      </ul>
       <nav>
         <div class="container">
           <div class="nav-wrapper">
@@ -30,7 +40,7 @@
                  <a href="#home">Home</a>
                </li>
                <li>
-                 <a href="#products">Products</a>
+                <a class="dropdown-trigger" href="#products" data-target="dropdown">Products<i class="material-icons right">arrow_drop_down</i></a>
                </li>
                <li>
                  <a href="#testimonials">Testimonials</a>
@@ -219,6 +229,10 @@
         transition: 300, //speed of the transition of slides
         interval: 6000 //in ms so 6000ms = 6 secs
       })
+
+      //Dropdown trigger
+      const dropDown = document.querySelector(".dropdown-trigger");
+      M.Dropdown.init(dropDown, {});
       </script>
 
   </body>
