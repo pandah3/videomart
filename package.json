@@ -1,8 +1,8 @@
 {
   "name": "videomart",
-  "description": "A Vue.js project",
+  "description": "eCommerce Website",
   "version": "1.0.0",
-  "author": "pandah3 <jlee.78@live.com>",
+  "author": "Pandah",
   "license": "MIT",
   "private": true,
   "scripts": {
