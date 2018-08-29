@@ -1,6 +1,6 @@
 # videomart
 
-> A Vue.js project
+eCommerce website for a small business. Using Node.js, Materialize CSS, Vue.js, & Express
 
 ## Build Setup
 
