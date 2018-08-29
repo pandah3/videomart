@@ -7,7 +7,7 @@ ul.nav-center li {
 }
 ul.nav-center.main-nav li a {
     display: inline-block;
-    line-height: 200px;
+    /* line-height: 200px; */
 }
 
 nav {

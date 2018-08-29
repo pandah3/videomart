@@ -38,6 +38,8 @@ inCart:  state  =>  state.inCart
 
 },
 
+// Mutations
+// commit mutations/modifications to the present state by an action
 mutations: {
 
 ADD_TO_CART(state, id) {
@@ -50,6 +52,7 @@ REMOVE_FROM_CART(state, index) {state.inCart.splice(index, 1)}
 
 },
 
+// specifying an action to react to addToCart event listener in our store
 actions: {
 
 addToCart(context, id) {
